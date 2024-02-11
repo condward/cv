@@ -26,8 +26,9 @@ export const JobSkills = () => (
       Contributor to discussions on enhancing UI/UX
     </Typography>
     <Typography bullet>
-      Possessing a comprehensive understanding of the entire technology stack,
-      with a primary focus on frontend development
+      Possessing a comprehensive understanding of the entire technology stack
+      (with some knowledge of databases, PHP and nodeJS), with a primary focus
+      on frontend development
     </Typography>
   </SectionCard>
 );

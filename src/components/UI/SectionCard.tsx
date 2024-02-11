@@ -10,12 +10,12 @@ const styles = StyleSheet.create({
 });
 
 interface SectionCard {
-  title: string;
+  title?: string;
   children: ReactNode;
 }
 export const SectionCard = ({ title, children }: SectionCard) => (
   <View style={styles.cards}>
-    <Typography type="title">{title}</Typography>
+    {title && <Typography type="title">{title}</Typography>}
     {children}
   </View>
 );

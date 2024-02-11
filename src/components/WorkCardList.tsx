@@ -30,7 +30,7 @@ export const WorkCardList = () => (
         technologies={[
           "Typescript",
           "nodeJS",
-          "ReactJS",
+          "React",
           "React Query",
           "React hook forms + ZOD",
           "SASS and MUI",
@@ -61,7 +61,7 @@ export const WorkCardList = () => (
         product="Productivity spreadsheet web app which allows to fetch API information directly from the cells"
         technologies={[
           "Typescript",
-          "ReactJS",
+          "React",
           "KonvaJS",
           "CSS in JS and MUI",
           "GraphQL",

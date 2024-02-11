@@ -22,7 +22,7 @@ export const WorkCardList = () => (
   <SectionCard title="Work Experience">
     <>
       <WorkCard
-        title="(Senior) Front-end software engineer"
+        title="Senior Front-end software engineer"
         company="Blip (Fanduel)"
         date="08/2022 - present"
         location="Porto, Portugal"
@@ -33,26 +33,26 @@ export const WorkCardList = () => (
           "ReactJS",
           "React Query",
           "React hook forms + ZOD",
-          "sass and MUI",
+          "SASS and MUI",
           "Cypress",
-          "react-testing-library",
-          "storybook",
-          "datadog",
+          "React-testing-library",
+          "Storybook",
+          "Datadog",
         ]}
         responsibilities={[
-          "Adding new features and creating new back office web apps",
-          "Working on the whole testing stack, from unit tests to e2e tests",
-          "Code maintainer which requires multi division code reviews",
-          "Conducting interviews and mentoring junior developers",
-          "Shaping and delegating new initiatives into tickets to the team",
-          "Helping the product owner with UI and negotiating backend contract decisions",
-          "Introducing technologies and managing tech debt cards (main driver of RTL best practices, react query and zod among others)",
+          "Developed web applications for the back office.",
+          "Worked on tests across the entire stack, ranging from unit tests to end-to-end tests.",
+          "Served as a code maintainer, overseeing multi-division code reviews to ensure code quality and consistency.",
+          "Conducted interviews and provided mentorship to junior developers, fostering their growth and development within the team.",
+          "Initiated and organized new projects, breaking them down into actionable tickets for the team to work on.",
+          "Collaborated with the product owner to provided insights on UI design and participated in negotiations regarding backend contract decisions.",
+          "Introduced new technologies and managed technical debt, was a major driver of RTL best practices, React Query, Zod, and other key initiatives.",
         ]}
         training={[
           "BOOST program - Emotional Intelligence, Strategic Thinking, Peer Development, Communication and Influence",
         ]}
       />
-      <View style={styles.separator} />
+      <View style={styles.separator} break />
       <WorkCard
         title="Front-end software engineer"
         company="Rows, Unipessoal Lda"
@@ -63,17 +63,17 @@ export const WorkCardList = () => (
           "Typescript",
           "ReactJS",
           "KonvaJS",
-          "css in JS and MUI",
+          "CSS in JS and MUI",
           "GraphQL",
           "Apollo Client",
           "WebDriverIO",
-          "react-testing-library",
+          "React-testing-library",
           "storybook",
         ]}
         responsibilities={[
-          "Worked on the main dashboard for the app where users can manage their spreadsheets",
-          "Adding new features to the spreadsheet based using KonvaJS to write in the html5 canvas",
-          "Working on the whole testing stack, from unit tests to e2e tests",
+          "Developed both the main dashboard of the app, allowing users to efficiently manage their spreadsheets.",
+          "Implemented new features for the spreadsheet app, utilizing KonvaJS to write onto the HTML5 canvas.",
+          "Engaged in comprehensive testing practices, covering the entire testing stack from unit tests to end-to-end tests, ensuring robustness and reliability of the application.",
         ]}
       />
       <View style={styles.separator} />
@@ -90,19 +90,19 @@ export const WorkCardList = () => (
           "VueJS",
           "NuxtJS",
           "Vuex",
-          "sass + Vuetify",
-          "jest",
-          "storybook",
+          "SASS + Vuetify",
+          "Jest",
+          "Storybook",
         ]}
         product="Back office for hostel owners to manage the prices and availability of the clients and Hostelworld.com PWA webpage"
         responsibilities={[
-          "Developing back office single page applications with VueJS Framework",
-          "Building server side rendering/pwa web page using Nuxt",
-          "Building components for the design system",
-          "Creating A/B Tests and tracking.",
+          "Developed single-page applications for back-office operations using the Vue.js framework",
+          "Implemented server-side rendering and progressive web application (PWA) features using Nuxt.js",
+          "Constructed reusable components for the design system",
+          "Conducted A/B tests and implemented tracking mechanisms to analyze and optimize performance.",
         ]}
       />
-      <View style={styles.separator} />
+      <View style={styles.separator} break />
       <WorkCard
         title="Full stack software engineer"
         company="Neuroinova, LDA"
@@ -118,9 +118,9 @@ export const WorkCardList = () => (
           "VueJS",
         ]}
         responsibilities={[
-          "Maintaining and adding features to the online platform both in frontend and backend",
-          "Creation of dozens of cognitive HTML5 canvas games with createJS Adobe library",
-          "Exporting database data for scientific studies.",
+          "Maintained and enhanced functionality of the online platform, addressing both frontend and backend requirements.",
+          "Developed numerous cognitive HTML5 canvas games using the CreateJS Adobe library",
+          "Facilitated data export from the database for scientific research purposes.",
         ]}
         publication="Cruz VT, Pais J, Ruano L, Mateus C, Colunas M, Alves I, Barreto R, Conde E, Sousa A, Araújo I, et al. Implementation
         and early outcomes of a collaborative multicentre network aimed at web-based cognitive training – COGWEB

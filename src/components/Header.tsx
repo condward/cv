@@ -1,4 +1,4 @@
-import { View, StyleSheet, Image, Link } from "@react-pdf/renderer";
+import { View, StyleSheet, Image } from "@react-pdf/renderer";
 import { Typography } from "./UI/Typography";
 import photo from "../assets/pdfphoto.jpeg";
 
@@ -20,33 +20,24 @@ const styles = StyleSheet.create({
 
 export const Header = () => (
   <View style={styles.header}>
-    <Typography type="title">Eduardo Conde</Typography>
+    <Typography type="title">Eduardo Conde (Front-end Engineer)</Typography>
     <View style={styles.highlight}>
-      <Image src={photo} style={{ width: 120, height: 120 }} />
+      <Image src={photo} style={{ width: 140, height: 140 }} />
       <View style={styles.info}>
-        <Typography>
-          <Typography type="label">Nationality: </Typography> Portugal
+        <Typography label="Nationality">Portuguese</Typography>
+        <Typography label="Location">Porto</Typography>
+        <Typography label="Languages">Portuguese, English</Typography>
+        <Typography label="Birth Year">1989</Typography>
+        <Typography label="Driver's License">B</Typography>
+        <Typography label="Email">eduardoconde.y@gmail.com</Typography>
+        <Typography label="Github" link="https://www.github.com/condward/">
+          github.com/condward/
         </Typography>
-        <Typography>
-          <Typography type="label">Birth Year: </Typography> 1989
-        </Typography>
-        <Typography>
-          <Typography type="label">Email: </Typography> eduardoconde.y@gmail.com
-        </Typography>
-        <Typography>
-          <Typography type="label">Location: </Typography> Porto
-        </Typography>
-        <Typography>
-          <Typography type="label">Driver License: </Typography> B
-        </Typography>
-        <Typography>
-          <Typography type="label">Languages: </Typography> Portuguese, English
-        </Typography>
-        <Typography>
-          <Typography type="label">Github: </Typography>{" "}
-          <Link src="https://www.github.com/condward/">
-            github.com/condward/
-          </Link>
+        <Typography
+          label="LinkedIn"
+          link="https://www.linkedin.com/in/eduardo-conde/"
+        >
+          linkedin.com/in/eduardo-conde/
         </Typography>
       </View>
     </View>

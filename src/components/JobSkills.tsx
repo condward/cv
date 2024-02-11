@@ -3,24 +3,31 @@ import { SectionCard } from "./UI/SectionCard";
 
 export const JobSkills = () => (
   <SectionCard title="Job Skills">
-    <Typography>• Working in agile development</Typography>
-    <Typography>
-      • Working in near-shore environments, hybrid or remote
+    <Typography bullet>Worked in agile development (SCRUM)</Typography>
+    <Typography bullet>
+      Experienced in diverse work environments including near-shore, hybrid, and
+      remote setups, ensuring seamless communication and workflow
     </Typography>
-    <Typography>
-      • Developing in Mac/Linux environment, using Git, Jenkins and Docker
+    <Typography bullet>
+      Proficient in Mac/Linux environments, leveraging Git, Jenkins, and Docker
     </Typography>
-    <Typography>
-      • Keeping updated with new technology, implementing best practices and
-      clean code principles
+    <Typography bullet>
+      Dedicated to continuous learning and implementation of new technologies,
+      emphasizing best practices and adherence to clean code principles
     </Typography>
-    <Typography>
-      • Creating tickets for new initiatives and estimating development duration
+    <Typography bullet>
+      Responsible for creating and prioritizing development tasks, accurately
+      estimating project timelines
     </Typography>
-    <Typography>• Passionate in mentoring junior developers</Typography>
-    <Typography>• Discussing UI/UX improvements</Typography>
-    <Typography>
-      • Knowledge on the full tech stack but specialized in frontend development
+    <Typography bullet>
+      Helped the growth of junior developers through mentorship
+    </Typography>
+    <Typography bullet>
+      Contributor to discussions on enhancing UI/UX
+    </Typography>
+    <Typography bullet>
+      Possessing a comprehensive understanding of the entire technology stack,
+      with a primary focus on frontend development
     </Typography>
   </SectionCard>
 );

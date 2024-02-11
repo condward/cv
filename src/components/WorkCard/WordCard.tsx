@@ -32,38 +32,24 @@ export const WorkCard = ({
 }: WorkCardProps) => (
   <View style={styles.card}>
     <Typography type="subtitle">{title}</Typography>
-    <Typography type="heading">
-      {company} [{date}]
-    </Typography>
-    <Typography>
-      <Typography type="label">Location: </Typography> {location}
-    </Typography>
-    <Typography>
-      <Typography type="label">Product: </Typography> {product}
-    </Typography>
-    <Typography>
-      <Typography type="label">Technologies: </Typography>
-      {technologies.join(" * ")}
-    </Typography>
-    <Typography>
-      <Typography type="label">Responsibilities: </Typography>
-    </Typography>
+    <Typography type="heading">{`${company} (${date})`}</Typography>
+    <Typography label="Location">{location}</Typography>
+    <Typography label="Product">{product}</Typography>
+    <Typography label="Technologies">{technologies.join(" * ")}</Typography>
+    <Typography label="Responsibilities" />
     {responsibilities.map((res, index) => (
-      <Typography key={index}>• {res}</Typography>
-    ))}
-    {publication && (
-      <Typography>
-        <Typography type="label">Publication: </Typography>
-        {publication}
+      <Typography bullet key={index}>
+        {res}
       </Typography>
-    )}
+    ))}
+    {publication && <Typography label="Publication">{publication}</Typography>}
     {training && (
       <>
-        <Typography>
-          <Typography type="label">Training: </Typography>
-        </Typography>
+        <Typography label="Training" />
         {training.map((res, index) => (
-          <Typography key={index}>• {res}</Typography>
+          <Typography bullet key={index}>
+            {res}
+          </Typography>
         ))}
       </>
     )}

@@ -17,9 +17,9 @@ export const App = () => (
     <Page size="A4" style={styles.page}>
       <Header />
       <WorkCardList />
+      <JobSkills />
     </Page>
     <Page size="A4" style={styles.page}>
-      <JobSkills />
       <OtherSkills />
       <Education />
     </Page>

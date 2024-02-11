@@ -7,14 +7,11 @@ export const Education = () => (
       Master's degree in Electronics and Telecommunication Engineering
     </Typography>
     <Typography type="heading">
-      University of Aveiro [09/2007 – 07/2012]
+      University of Aveiro (09/2007 – 07/2012)
     </Typography>
-    <Typography>
-      <Typography type="label">Location: </Typography>Aveiro, Portugal
-    </Typography>
-    <Typography>
-      <Typography type="label">Thesis: </Typography>“Detection techniques for
-      the uplink of LTE“
+    <Typography label="Location"> Aveiro, Portugal</Typography>
+    <Typography label="Thesis">
+      “Detection techniques for the uplink of LTE“
     </Typography>
     <Typography>
       This thesis work is based on the physical layer of LTE, namely the uplink
@@ -26,17 +23,15 @@ export const Education = () => (
       between linear frequency domain receivers such as ZF and MMSE and
       iterative frequency domain receivers.
     </Typography>
-    <Typography>
-      <Typography type="label">Main subjects:</Typography>
-    </Typography>
-    <Typography>• Electronics</Typography>
-    <Typography>• Object oriented programming</Typography>
-    <Typography>• Computer Architecture</Typography>
-    <Typography>• Operating Systems</Typography>
-    <Typography>• Control theory</Typography>
-    <Typography>• Radio systems</Typography>
-    <Typography>• Planning of mobile networks</Typography>
-    <Typography>• Wireless networks</Typography>
-    <Typography>• Antennas and wave-guides</Typography>
+    <Typography label="Main subjects" />
+    <Typography bullet>Electronics</Typography>
+    <Typography bullet>Object oriented programming</Typography>
+    <Typography bullet>Computer Architecture</Typography>
+    <Typography bullet>Operating Systems</Typography>
+    <Typography bullet>Control theory</Typography>
+    <Typography bullet>Radio systems</Typography>
+    <Typography bullet>Planning of mobile networks</Typography>
+    <Typography bullet>Wireless networks</Typography>
+    <Typography bullet>Antennas and wave-guides</Typography>
   </SectionCard>
 );

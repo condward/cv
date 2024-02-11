@@ -1,9 +1,11 @@
-import { Text, StyleSheet } from "@react-pdf/renderer";
-import { ReactNode } from "react";
+import { Text, StyleSheet, Link } from "@react-pdf/renderer";
 
 interface HeaderTextProps {
-  type?: "title" | "subtitle" | "heading" | "label" | "text";
-  children: ReactNode;
+  type?: "title" | "subtitle" | "heading" | "text";
+  label?: string;
+  link?: string;
+  children?: string;
+  bullet?: boolean;
 }
 
 const styles = StyleSheet.create({
@@ -20,7 +22,7 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontSize: 14,
-    fontFamily: "Courier",
+    fontFamily: "Courier-Bold",
     color: "dimgray",
     marginBottom: 8,
   },
@@ -36,7 +38,26 @@ const styles = StyleSheet.create({
 
 export const Typography: React.FC<HeaderTextProps> = ({
   type = "text",
+  label,
   children,
+  bullet,
+  link,
 }) => {
-  return <Text style={styles[type]}>{children}</Text>;
+  const text = bullet ? `• ${children}` : children;
+
+  if (link) {
+    return (
+      <Text style={styles[type]}>
+        {label && <Text style={styles.label}>{label}: </Text>}
+        <Link src={link}>{text}</Link>
+      </Text>
+    );
+  }
+
+  return (
+    <Text style={styles[type]}>
+      {label && <Text style={styles.label}>{label}: </Text>}
+      {text}
+    </Text>
+  );
 };

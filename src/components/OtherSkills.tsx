@@ -3,20 +3,24 @@ import { SectionCard } from "./UI/SectionCard";
 
 export const OtherSkills = () => (
   <SectionCard title="Other Skills">
-    <Typography>
-      • Practicing English and soft skills by joining meetups in bars with
-      language exchange, hosting couchsurfers and traveling
+    <Typography bullet>
+      Enhancing English language proficiency and soft skills through
+      participation in language exchange meetups at local bars and exploring
+      various cultures through couchsurfing and travel
     </Typography>
-    <Typography>
-      • Joining tech networking sessions events and developing apps outside of
-      work (such as Coverboard) to improve my technical skills
+    <Typography bullet>
+      Engaging in tech networking sessions and events, alongside personal
+      projects like developing apps (e.g., Coverboard) outside of regular work
+      hours, aimed at improving technical abilities
     </Typography>
-    <Typography>
-      • Improving logical thinking by playing boardgames in associations
+    <Typography bullet>
+      Improving logical thinking skills through involvement in board game play
+      sessions in local associations
     </Typography>
-    <Typography>
-      • Improving fitness with pilates, yoga and functional training in local
-      gym plus hiking trips
+    <Typography bullet>
+      Prioritizing physical well-being by incorporating pilates, yoga, and
+      functional training sessions at the local gym, complemented by doing
+      hiking trails.
     </Typography>
   </SectionCard>
 );

@@ -22,7 +22,7 @@ export const WorkCardList = () => (
   <SectionCard title="Work Experience">
     <>
       <WorkCard
-        title="Senior Front-end software engineer"
+        title="Front-end software engineer (Senior - Fanduel)"
         company="Blip (Fanduel)"
         date="08/2022 - present"
         location="Porto, Portugal"
